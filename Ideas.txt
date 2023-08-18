@@ -1,0 +1,68 @@
+-Simple FPS
+-Game goes on forever, with any number of players able to join at any time
+-Leaderboard that constantly updates based off of which players have defeated the most of other players
+-Stuff:
+    >Guns
+    >Melee weapons
+    >Armor
+    >Health items
+-Fixed loot locations that will regenerate random loot after some time after being looted
+-Players drop everything when defeated, and all of it can be taken by other players
+-Fast-ish paced:
+    >Movement speed is not slow, but not extremely fast either
+    >Every player does not have much health, so even the weakest weapons against the strongest body armor
+        will take roughly 5-7 shots
+    >Multiple types of movements that can be done, from diving to sliding
+-With guns, the recoile should be high enough that guns will not feel like a laser, but still be controllable 
+    for most people
+-Ammo:
+    >System will be simple in that there will be the magazine capacity and total ammo
+    >Ammo alone can not be found anywhere, and cannot be picked up from other players, so players will have to 
+        keep getting new weapons
+-Armor:
+    >Multiple types that provide different levels of protection
+    >The better protection, the slower the player moves
+    >Armor acts as a shield, in that it takes damage before the player takes damage
+    >When enough damage has been dealt to the armor, it is destroyed
+-Health:
+    >Regenerates slowly over time
+    >Can also be replenished through health items
+    >Health items can be spammed
+-Durability will not exist for anything
+-Inventory system:
+    >Simple, so no way to atually open inventory, as everything can be seen on screen at all times
+    >Can hold up to 2 weapons at a time
+    >Can hold up to 3 health items at a time
+    >Can only have 1 armor equiped at a time
+-Looting:
+    >When looting a loot location or player, a grid will open up that shows everything that can be looted, 
+        and when hovering the mouse over an item, something will come up like "press 1 to equip or swap 
+        with your first weapon", or "press 2 to equip or swap with the health item in your second slot"
+    >When a player is defeated, their body will stay on the ground for some time to be looted, however, 
+        after everything they are carrying has been taken, or some time has passed, their body will 
+        disappear
+    >Loot locations will only regenerate loot after some time once all of the loot has been taken
+-Movement:
+    >Stamina that lasts a decent amount of time and regenerates quickly
+    >Normal movement
+    >(uses stamina) Sprinting
+    >Crouch
+    >Prone
+    >Leaning
+    >(uses stamina) Can slide in any direction by springting and tapping crouch, will slide to the last 
+        direction the player was moving in before tapping the crouch button
+    >(uses stamina) Can dive to the ground by sprinting and tapping prone, will dive to the last 
+        direction the player was moving in before tapping the prone button
+    >Differences between sliding and diving are that sliding keeps the player moving, but also keeps 
+        them more exposed
+    >(uses stamina) Can dodge to the left or right by FIGURE OUT LATER
+-Time period of everything should not be anything specific, meaning that the weapons will span 
+    multiple eras
+-Map:
+    >Medium-sized building with many rooms and hallways
+    >Lighting is decent, but the lighting should not be even, and there will be some dark areas
+    >No doors
+    >No windows
+    >Some walls might have chunks missing that will act sort of as windows
+-When starting out, each player will only have 1 random gun that is not very good
+-Graphics should either be stylized, or decent
